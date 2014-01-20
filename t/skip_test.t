@@ -1,6 +1,6 @@
 use Test::More;
 use strict;
-use 5.10;
+use 5.10.0;
 
 if( 1 == 1 ){
   say "skipping test";
