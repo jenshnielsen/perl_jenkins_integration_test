@@ -1,6 +1,6 @@
 use Test::More;
 use strict;
-use 5.16.2;
+use 5.10;
 
 if( 1 == 1 ){
   say "skipping test";
@@ -9,7 +9,7 @@ if( 1 == 1 ){
 else {
   say "runing test";
   plan tests => 1;
-  my $foo = "test";
+    my $foo = "test";
   my $bar = "test1";
   say "This is a junk test";
   ok( $foo eq $bar, 'is foo also bar here?' );
